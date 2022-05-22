@@ -17,7 +17,7 @@ startSlide = () => {
 }
 
 //show previous  
-function slideLeft() {
+slideLeft = () => {
     reset();
     sliderImages[current - 1].style.display = 'block'; //block to show
     current--; 
